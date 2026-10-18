@@ -7,12 +7,12 @@ const FRAMES: { img?: string; alt?: string; note: string }[] = [
   { note: "dậy trễ 3 phút — nhưng vẫn kịp" },
   { note: "sữa đậu nành + bánh mì: combo quốc dân" },
   { note: "cơm mẹ nấu — ưu tiên số một của tuần" },
-  { img: "/images/daily/saigon-dem.jpg", alt: "Sài Gòn lên đèn nhìn từ sông", note: "sài gòn lên đèn — đứng đây ngắm một lúc" },
-  { img: "/images/daily/khu-chung-cu.jpg", alt: "Khu chung cư đêm, đèn lấp lánh", note: "đi bộ quanh khu, tai nghe lofi, não để trống" },
-  { img: "/images/daily/bien-dem.jpg", alt: "Đứng ở mép biển đêm, sóng vỗ", note: "cuối tuần thoát thoáng — biển đêm không giờ tắt" },
-  { img: "/images/daily/doi-che.jpg", alt: "Đồi chè buổi sớm, trời còn xám", note: "chạy ngắm đồi chè — chữa lành kiểu của tôi" },
-  { img: "/images/hien-tai/sinh-nhat-16.jpg", alt: "Bánh sinh nhật 16 tuổi, Happy Birthday Minh Phát", note: "mỗi năm một lần — nạp thêm 1 tuổi & khát vọng full pin" },
-  { img: "/images/hien-tai/selfie-ran-giay.jpg", alt: "Selfie dán râu giấy vui", note: "râu giấy xé từ vở — giữ cho bản thân luôn biết cười" },
+  { img: "images/daily/saigon-dem.jpg", alt: "Sài Gòn lên đèn nhìn từ sông", note: "sài gòn lên đèn — đứng đây ngắm một lúc" },
+  { img: "images/daily/khu-chung-cu.jpg", alt: "Khu chung cư đêm, đèn lấp lánh", note: "đi bộ quanh khu, tai nghe lofi, não để trống" },
+  { img: "images/daily/bien-dem.jpg", alt: "Đứng ở mép biển đêm, sóng vỗ", note: "cuối tuần thoát thoáng — biển đêm không giờ tắt" },
+  { img: "images/daily/doi-che.jpg", alt: "Đồi chè buổi sớm, trời còn xám", note: "chạy ngắm đồi chè — chữa lành kiểu của tôi" },
+  { img: "images/hien-tai/sinh-nhat-16.jpg", alt: "Bánh sinh nhật 16 tuổi, Happy Birthday Minh Phát", note: "mỗi năm một lần — nạp thêm 1 tuổi & khát vọng full pin" },
+  { img: "images/hien-tai/selfie-ran-giay.jpg", alt: "Selfie dán râu giấy vui", note: "râu giấy xé từ vở — giữ cho bản thân luôn biết cười" },
   { note: "「5 phút nữa ngủ» — nằm lướt tới 3h" },
 ];
 

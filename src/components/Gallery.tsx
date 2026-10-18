@@ -6,13 +6,13 @@ import { Polaroid, SectionHeader } from "./ui";
 type Photo = { src: string; caption: string; x: number; y: number; r: number; w: string };
 
 const PHOTOS: Photo[] = [
-  { src: "/images/hien-tai/selfie-2026.jpg", caption: "16 tuổi, cười như vầy", x: 4, y: 8, r: -5, w: "w-40 sm:w-52" },
-  { src: "/images/hien-tai/sinh-nhat-16.jpg", caption: "23/9 — nạp tuổi, bánh 16", x: 56, y: 2, r: 4, w: "w-40 sm:w-52" },
-  { src: "/images/daily/saigon-dem.jpg", caption: "sài gòn lên đèn", x: 30, y: 24, r: 2, w: "w-40 sm:w-52" },
-  { src: "/images/tuoi-tho/tu-2013.jpg", caption: "2013 — thủy tổ", x: 3, y: 58, r: 6, w: "w-40 sm:w-52" },
-  { src: "/images/daily/bien-dem.jpg", caption: "biển đêm, sóng không ngủ", x: 34, y: 66, r: -4, w: "w-40 sm:w-52" },
-  { src: "/images/tuoi-tho/tu-2015.jpg", caption: "2015 — phiên bản nhí", x: 60, y: 52, r: -6, w: "w-40 sm:w-52" },
-  { src: "/images/hien-tai/selfie-ran-giay.jpg", caption: "râu giấy — vui là chính", x: 74, y: 26, r: 3, w: "w-40 sm:w-52" },
+  { src: "images/hien-tai/selfie-2026.jpg", caption: "16 tuổi, cười như vầy", x: 4, y: 8, r: -5, w: "w-40 sm:w-52" },
+  { src: "images/hien-tai/sinh-nhat-16.jpg", caption: "23/9 — nạp tuổi, bánh 16", x: 56, y: 2, r: 4, w: "w-40 sm:w-52" },
+  { src: "images/daily/saigon-dem.jpg", caption: "sài gòn lên đèn", x: 30, y: 24, r: 2, w: "w-40 sm:w-52" },
+  { src: "images/tuoi-tho/tu-2013.jpg", caption: "2013 — thủy tổ", x: 3, y: 58, r: 6, w: "w-40 sm:w-52" },
+  { src: "images/daily/bien-dem.jpg", caption: "biển đêm, sóng không ngủ", x: 34, y: 66, r: -4, w: "w-40 sm:w-52" },
+  { src: "images/tuoi-tho/tu-2015.jpg", caption: "2015 — phiên bản nhí", x: 60, y: 52, r: -6, w: "w-40 sm:w-52" },
+  { src: "images/hien-tai/selfie-ran-giay.jpg", caption: "râu giấy — vui là chính", x: 74, y: 26, r: 3, w: "w-40 sm:w-52" },
 ];
 
 export default function Gallery() {

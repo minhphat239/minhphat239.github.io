@@ -61,7 +61,7 @@ export default function Hero() {
             >
               TÔI LÀ
               <span className="inline-block h-[0.68em] w-[1.5em] -rotate-3 overflow-hidden rounded-full border-2 border-ink/15 shadow-md">
-                <img src="/images/hien-tai/selfie-2026.jpg" alt="Minh Phát selfie hiện tại, 2026" className="h-full w-full object-cover" />
+                <img src="images/hien-tai/selfie-2026.jpg" alt="Minh Phát selfie hiện tại, 2026" className="h-full w-full object-cover" />
               </span>
             </motion.span>
             <motion.span
@@ -131,7 +131,7 @@ export default function Hero() {
         >
           <motion.div style={{ y: yPhoto }}>
             <Polaroid
-              src="/images/hien-tai/sinh-nhat-16.jpg"
+              src="images/hien-tai/sinh-nhat-16.jpg"
               alt="Minh Phát với bánh sinh nhật 16 tuổi"
               caption="23/9/2026 — vừa lớn thêm một tuổi"
               rotate={3}

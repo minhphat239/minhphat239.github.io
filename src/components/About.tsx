@@ -37,7 +37,7 @@ export default function About() {
           {/* ---------- collage polaroid ---------- */}
           <Reveal className="relative mx-auto w-fit">
             <Polaroid
-              src="/images/tuoi-tho/tu-2015.jpg"
+              src="images/tuoi-tho/tu-2015.jpg"
               alt="Minh Phát thời bé, khoảng 2015"
               caption="2015 — tròn trĩnh, chưa biết lo toan"
               rotate={-4}
@@ -45,7 +45,7 @@ export default function About() {
             />
             <div className="absolute -bottom-10 -right-4 sm:-right-10">
               <Polaroid
-                src="/images/tuoi-tho/tu-2013.jpg"
+                src="images/tuoi-tho/tu-2013.jpg"
                 alt="Minh Phát nhỏ hơn, 2013"
                 caption="2013 — bản beta"
                 rotate={7}

@@ -67,7 +67,7 @@ export default function ThenNow() {
           >
             {/* ảnh hồi xưa (bên trái) */}
             <img
-              src="/images/tuoi-tho/tu-2013.jpg"
+              src="images/tuoi-tho/tu-2013.jpg"
               alt="Minh Phát hồi nhỏ, khoảng 2013"
               draggable={false}
               className="absolute inset-0 h-full w-full object-cover"
@@ -75,7 +75,7 @@ export default function ThenNow() {
             {/* ảnh bây giờ (bên phải, bị cắt theo vị trí thanh) */}
             <div className="absolute inset-0" style={{ clipPath: `inset(0 0 0 ${pos}%)` }}>
               <img
-                src="/images/hien-tai/sinh-nhat-16.jpg"
+                src="images/hien-tai/sinh-nhat-16.jpg"
                 alt="Minh Phát hiện tại, sinh nhật 16 tuổi 2026"
                 draggable={false}
                 className="h-full w-full object-cover"
