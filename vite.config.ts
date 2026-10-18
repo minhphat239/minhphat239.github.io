@@ -10,6 +10,8 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
+  // GitHub Pages: https://<user>.github.io/creative-personal-lifestyle-portfolio/
+  base: "/creative-personal-lifestyle-portfolio/",
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
